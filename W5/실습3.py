@@ -5,6 +5,7 @@ for line in result_f :
     (name, score) = line.split()
     scores[score] = name
 
+
 result_f.close()
 
 print("The top scores were: ")
