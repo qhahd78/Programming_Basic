@@ -18,8 +18,8 @@ def find_details(id2find):
             s['age']   = str(row['age'])
             cursor.close()
             return(s)
-        cursor.close()
-        return({})
+    cursor.close()
+    return({})
 
 lookup_id = int(input("Enter the id of the surfer: "))
 surfer = find_details(lookup_id)

@@ -16,7 +16,8 @@ result_f.close()
 
 print("The top scores were: ")
 
-# scored 함수를 이용하여 정렬한다. default 가 오름차순이므로 reverse=True 를 설정하여 내림차순으로 정렬해준다. 
-for each_score in sorted(scores.keys(), reverse= True):
-    # if float(each_score) > 8.3 :  
-    print('Surfer' + scores[each_score]+' scored ' + each_score)
+# scores key 개수 번 딕셔너리를 돌며 아래의 함수를 실행한다. 
+for each_score in scores.keys():
+    # scores[each_score] 는 each_score의 value 값으로 이름이 출력된다. 
+    # each_score는 키값으로 점수가 출력된다.  
+    print('Surfer' +scores[each_score]+ ' scored '+ each_score)
