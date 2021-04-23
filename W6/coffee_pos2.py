@@ -2,6 +2,7 @@
 print("의용메카트로닉스공학과 20195277 하유민")
 
 from transactions import * 
+from promotion import *
 
 items = ["DONUT", "LATTE", "FILTER", "MUFFIN"]
 prices = [1.50, 2.20, 1.80, 1.20]
@@ -18,4 +19,5 @@ while running:
         running = False
     else: 
         credit_card = input("Crecit card number: ")
-        save_transaction(prices[choice-1], credit_card, items[choice -1])
+        new_price = discount(prices[choice-1])
+        save_transaction(new_price, credit_card, items[choice -1])
