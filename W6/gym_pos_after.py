@@ -2,6 +2,7 @@
 print("의용메카트로닉스공학과 20195277 하유민")
 
 from transactions import * 
+# menu 모듈 호출 
 import menu
 
 items = ["WORKOUT", "WEIGHTS", "BIKES"]
@@ -10,7 +11,7 @@ running = True
 
 while running: 
     opt = menu.menu_list(items)
-    menu.menu_list(items)
+    # menu.menu_list(items)
 
     choice = int(input("Choose an option: "))
     if choice == opt:

@@ -4,6 +4,7 @@ print("의용메카트로닉스공학과 20195277 하유민")
 from transactions import * 
 import promotion
 import starbuzz
+# menu 모듈 불러오기 
 import menu
 
 items = ["DONUT", "LATTE", "FILTER", "MUFFIN"]
@@ -14,7 +15,7 @@ while running:
     # 모듈 이름까지 같이 써주기 
     # 인수로 items 전달
     opt = menu.menu_list(items)
-    menu.menu_list(items)
+    # menu.menu_list(items)
     # option = 1 
     # for choice in items: 
     #     print(str(option)+". "+ choice)
