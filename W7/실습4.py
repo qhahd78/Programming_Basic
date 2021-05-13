@@ -2,7 +2,7 @@ from tkinter import *
 import pygame.mixer
 
 def play_correct_sound():
-    num_good.set(num_good.get() +1)
+    num_good.set(num_good.get() +1) # get 으로 IntVar 값 읽기 
     correct_s.play()
 
 def play_wrong_sound(): 
