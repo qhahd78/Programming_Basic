@@ -1,0 +1,84 @@
+Depot:
+창고
+Description:
+우리집
+Address:
+충청남도
+천안시
+서북구
+705호
+
+Depot:창고이름
+Description:밈미창고
+Address:순천향로 22 503 어쩌구 자취방
+
+택배기사:하유민
+Depot:
+Seattle, WA
+Description:
+시애틀에 넣어놔주세요
+Address:
+주소는 한국입니다. 
+
+Depot:
+Cambridge, MA
+Description:
+실습2 추가내용
+Address:
+대한민국과 미국옵션이 추가 됐어요 
+
+Country:Depot:
+Cambridge, UK
+Description:
+실습2 더한거
+Address:
+대한민국과 미국 중 선택 
+
+Country:
+Depot:
+Cambridge, MA
+Description:
+실습2
+Address:
+더했지롱 
+
+Country:
+Depot:
+Cambridge, MA
+Description:
+dsrg
+Address:
+gsgrsrgsrdg
+
+Country:
+USA
+Depot:
+Cambridge, MA
+Description:
+sgrrdg
+Address:
+gsrgs
+
+Country:
+Korea
+Depot:
+Bdepot
+Description:
+B로 선택할거ㅑㅇ
+Address:
+자취방으로 보내줘 
+
+Depot:
+거제도
+Description:
+거제도로 배달해주세요
+Address:
+거제도 바닷가 빨간 지붕 집 
+
+Depot:
+아산
+Description:
+컴퓨터
+Address:
+주소주소
+
