@@ -29,7 +29,7 @@ track_button.pack(side=LEFT)
 
 volume=DoubleVar()
 volume.set(track.get_volume())
-volume_scale=Scale(variable=volume, from_=0.0, to=1.0, resolution=0.1, command=change_volume, label="Volume", orient=HORIZONTAL)
+volume_scale=Scale(app, variable=volume, from_=0.0, to=1.0, resolution=0.1, command=change_volume, label="Volume", orient=HORIZONTAL)
 volume_scale.pack(side=RIGHT)
 
 app.protocol("WM_DELETE_WINDOW", shutdown)
